@@ -1,7 +1,5 @@
 browser= firefox
-browser2= chrome
 URL=https://www.amazon.in/?
 Username=username
 password=pasword
 testing=UITesting
-regresstion=newmodification
