@@ -25,7 +25,8 @@ public class PropertyReader
 //method return type String
 		//method should be String
 		//method Parameterised string
-	public static String elisha (String s1)throws Throwable
+	public static String elisha (String s1)
+		throws Throwable {
 	FileInputStream s=new FileInputStream("");
 	Properties r=new Properties();
 	r.load(s);
@@ -33,5 +34,6 @@ public class PropertyReader
 	String value1= r.getProperty("browser");
 	System.out.println(ok);
 	
-
+return s1;
 		}
+}
