@@ -1,4 +1,4 @@
-browser= chrome
+browser= firefox
 URL=https://www.amazon.in/?
 Username=username
 password=pasword
